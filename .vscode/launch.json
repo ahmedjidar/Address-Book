@@ -10,6 +10,14 @@
             "request": "launch",
             "vmArgs": "--module-path /Users/asus/Downloads/javafx-sdk-19.0.2.1/lib --add-modules javafx.controls,javafx.fxml",
             "mainClass": "application.loginScreen",
+            "projectName": "AddressBook_5e2bfd8a"
+        },
+        {
+            "type": "java",
+            "name": "loginScreen",
+            "request": "launch",
+            "vmArgs": "--module-path /Users/asus/Downloads/javafx-sdk-19.0.2.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "application.loginScreen",
             "projectName": "EmployeeDB_17f5e97f"
         },
         {
