@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "loginScreen",
+            "request": "launch",
+            "vmArgs": "--module-path /Users/asus/Downloads/javafx-sdk-19.0.2.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "application.loginScreen",
+            "projectName": "EmployeeDB_17f5e97f"
+        },
+        {
+            "type": "java",
+            "name": "User",
+            "request": "launch",
+            "vmArgs": "--module-path /Users/asus/Downloads/javafx-sdk-19.0.2.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "application.User",
+            "projectName": "EmployeeDB_17f5e97f"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "vmArgs": "--module-path /Users/asus/Downloads/javafx-sdk-19.0.2.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "application.Main",
+            "projectName": "EmployeeDB_17f5e97f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "vmArgs": "--module-path /Users/asus/Downloads/javafx-sdk-19.0.2.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "vmArgs": "--module-path /Users/asus/Downloads/javafx-sdk-19.0.2.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "App",
+            "projectName": "My_JavaFX_Attempt_a9f07223"
+        }
+    ]
+}

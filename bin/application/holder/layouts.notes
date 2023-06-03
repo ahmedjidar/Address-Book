@@ -1,0 +1,74 @@
+		// main layout
+		VBox vbox = new VBox();
+		vbox.setSpacing(10);
+		vbox.setPadding(new Insets(10));
+		
+		// grid pane for the form components
+		GridPane formGridPane = new GridPane();
+		formGridPane.setPadding(new Insets(10));
+		formGridPane.setVgap(10);
+		formGridPane.setHgap(10);
+		formGridPane.setAlignment(Pos.CENTER);
+
+		// fields & buttons
+        Label firstNameLabel = new Label("First Name:");
+        // components.setConstraints(firstNameLabel, 0, 0);
+        firstNameLabel.setId("first-name-label");
+		TextField firstName = new TextField();
+        firstName.setId("first-name");
+        // components.setConstraints(firstName, 1, 0);
+
+        Label lastNameLabel = new Label("Last Name:");
+        // components.setConstraints(lastNameLabel,2,0);
+        TextField lastName = new TextField();
+		lastName.setId("last-name");
+        // components.setConstraints(lastName, 3, 0);
+
+        Label emailLabel = new Label("Email:");
+        // components.setConstraints(emailLabel,0,1);
+        TextField email = new TextField();
+		email.setId("email");
+        // components.setConstraints(email, 1, 1);
+
+        Label apogeeLabel = new Label("Apogee:");
+        // components.setConstraints(apogeeLabel,2,1);
+        TextField apogee = new TextField();
+		apogee.setId("apogee");
+        // components.setConstraints(apogee, 3, 1);
+
+		Button registerButton = new Button("Register");
+		registerButton.setId("register-button");
+		// components.setConstraints(registerButton, 5, 1);
+
+        Label message = new Label();
+		message.setId("message");
+        // components.setConstraints(message, 0, 5);
+
+		Label ageLabel = new Label("Age:");
+        // components.setConstraints(ageLabel,4,0);
+        TextField ageField = new TextField();
+		ageField.setId("age");
+        // components.setConstraints(ageField, 5, 0);
+
+		Button updateButton = new Button("Modify Coordinates");
+		updateButton.setId("update-button");
+		// components.setConstraints(updateButton, 1, 4);
+
+        Button displayButton = new Button("Display All");
+		displayButton.setId("display-button");
+		// components.setConstraints(displayButton, 3, 4);
+
+		Button deleteButton = new Button("Delete");
+		deleteButton.setId("delete-button");
+		// components.setConstraints(deleteButton, 5, 4);
+
+		// formGridPane.getChildren().addAll(firstName, firstNameLabel, lastName, lastNameLabel, email, emailLabel,
+		// apogee, apogeeLabel, displayButton, registerButton, deleteButton, updateButton, ageLabel, ageField, message);
+
+		formGridPane.addRow(0, firstNameLabel, firstName, lastNameLabel, lastName);
+        formGridPane.addRow(1, emailLabel, email, apogeeLabel, apogee);
+        formGridPane.addRow(2, ageLabel, ageField);
+        formGridPane.addRow(3, registerButton);
+        formGridPane.addRow(4, updateButton, displayButton, deleteButton);
+
+        vbox.getChildren().addAll(tableView, formGridPane);

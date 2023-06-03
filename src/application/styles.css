@@ -1,0 +1,211 @@
+/* ################################################## Customize the TableView */
+.table-view {
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-border-color: #ff6f61;
+    -fx-padding: 0;
+    -fx-margin: 0;
+}
+
+/* Customize the TableColumns */
+.table-column {
+    -fx-alignment: CENTER;
+    -fx-font-size: 16px;
+    -fx-font-family: "Poppins", sans-serif;
+}
+
+/* Customize the TableCells */
+.table-cell {
+    -fx-font-family: "Poppins", sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Hover effect */
+.table-row-cell:hover .table-cell {
+    -fx-background-color: rgba(0, 0, 0, .1);
+}
+
+/* Customize the selection color */
+.table-row-cell:filled:selected {
+    -fx-background-color: rgba(16, 37, 38, .75);
+}
+
+/* Customize the border color in the selected row */
+.table-row-cell:filled:selected .table-cell {
+    -fx-border-color: white;
+}
+
+.table-cell {
+    -fx-padding: .75em 0;
+}
+
+/* Customize the column headers */
+.table-column .label {
+    -fx-background-color: #ff6f61;
+    -fx-text-fill: white;
+}
+
+/* Customize the hover effect for column headers */
+.table-column:hover .label {
+    -fx-background-color: #ffa07a;
+}
+
+/* Remove the arrow icons from column headers */
+.table-view .column-header .arrow {
+    -fx-padding: 0;
+}
+
+/* modify header titles padding and alignment */
+.table-view .column-header{
+    -fx-background-color: white;
+    -fx-padding: .75em 0;
+}
+
+/* Hide the vertical scroll bar */
+.table-view .scroll-bar:vertical {
+    -fx-opacity: 0;
+    -fx-padding: 0;
+}
+
+/* ################################################## Customize Fields & buttons */
+
+/* GridPane */
+
+.border-pane{
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-padding: 10;
+}
+
+.hbox{
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-padding: 10;
+}
+
+.grid-pane {
+    -fx-background-color: rgba(255, 255, 255, 1);
+    -fx-padding: 10;
+}
+
+/* Labels */
+.label {
+    -fx-text-fill: rgba(16, 37, 38, .75);
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 15px;
+}
+
+/* TextFields */
+.text-field {
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-background-color: white;
+    -fx-border-color: #e2e2e2;
+    -fx-border-radius: 0;
+    -fx-padding: 5;
+    -fx-font-size: 16px;
+    -fx-text-fill: #333333;
+}
+
+.text-field:focused{
+    -fx-border-color: #ef7d73;
+    -fx-border-width: 1;
+}
+
+/* Buttons */
+.button {
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-background-color: rgba(16, 37, 38, .75);
+    -fx-border-radius: 0;
+    -fx-padding: .75em 1em;
+    -fx-font-size: 16px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.button:hover{
+    -fx-background-color:rgba(16, 37, 38, .9);
+}
+
+#update-button{
+    -fx-background-color: #ef7d73;
+}
+
+#update-button:hover{
+    -fx-background-color: #ff6f61;
+}
+
+/* Message Label */
+#message {
+    -fx-font-size: 16px;
+    -fx-text-fill: #ff6f61;
+}
+
+#fn, #ln, #em, #apg, #ag, #schl, #clg, #ssn, #ind{
+    -fx-text-fill: rgba(16, 37, 38, .75);
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 15px;
+}
+
+#sig{
+    -fx-font-size: 12px;
+}
+
+#box{
+    -fx-padding: 1em 5em;
+    -fx-border-color: rgba(16, 37, 38, .75);
+}
+
+#headTitle{
+    -fx-font-family: 'Poppins', sans-serif;
+    -fx-font-size: 35px;
+    -fx-text-fill: rgba(16, 37, 38, 1);
+}
+
+/* utils styling */
+
+#topSection {
+    -fx-background-color: #ffffff; /* Set the background color of the top section to a light gray */
+    -fx-border-color: rgb(239, 239, 239) ;
+    -fx-border-width:2 ; 
+    -fx-border-style: solid inside;
+}
+
+#root{
+    -fx-background-color: white;
+}
+
+/* Login Screen */
+#background {
+    -fx-background-color: #FFFFFF; /* Set the background color of the container to white */
+    -fx-font-family: "Poppins";
+    -fx-font-weight: bold;
+    -fx-background-image: url('./utils/lib.png');
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+
+#loginButton {
+-fx-text-fill: white; /* Set the text color of the login button to white */
+-fx-background-color: #ff6f61; /* Set the background color of the login button to a blue color */
+-fx-font-size: 18px; /* Set the font size */
+-fx-padding: 5px 20px; /* Set the padding */
+}
+
+#username, #password {
+-fx-font-size: 16px; /* Set the font size for labels */
+-fx-text-fill: white;
+-fx-background-color: #ff6f61; /* Set the background color of the login button to a blue color */
+-fx-padding: 5px 20px;
+}
+
+#userField, #passField {
+-fx-font-size: 16px; /* Set the font size for text fields */
+-fx-pref-height: 40px; /* Set the preferred height for text fields */
+}
+
+
+
+
+
+
+
+
+
+
