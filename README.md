@@ -1,6 +1,15 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome to our JavaFX project! This repository contains the code for our exciting JavaFX application.
+
+In this project, we aim to showcase the versatility of JavaFX by implementing various features and functionalities.
+
+    - Creators:
+        - JIDAR Ahmed Amin
+        - ANKRI Mohamed Khalil
+        - KHARTOUCH Mouad
+
+Whether you're a beginner or an experienced developer, our project offers a great opportunity to explore JavaFX and learn new concepts.
 
 ## Folder Structure
 
