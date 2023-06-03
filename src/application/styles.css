@@ -61,9 +61,43 @@
 }
 
 /* Hide the vertical scroll bar */
+
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 0;
+    -fx-border-width: 1;
+    -fx-border-radius: 0;
+}
+
+.table-view .scroll-bar:horizontal .track {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.table-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: #ff6f61;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
 .table-view .scroll-bar:vertical {
-    -fx-opacity: 0;
-    -fx-padding: 0;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 0;
+    -fx-border-width: 1;
+    -fx-border-radius: 0;
+}
+
+.table-view .scroll-bar:vertical .track {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #ff6f61;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
 }
 
 /* ################################################## Customize Fields & buttons */
